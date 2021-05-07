@@ -1,0 +1,2 @@
+* `listen_for_XXX` functions are supposed to be "state machine" functions.  
+  They handle the global state, alter it as necessary, and call **other functions** that are sensor-specific and actually handle the devices.
